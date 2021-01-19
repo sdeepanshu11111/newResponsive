@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 88%;
+}
+
+body {
+    text-transform: capitalize;
+}
+
+.nav {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 4rem;
+    align-items: center;
+    background-color: black;
+    background: #de6262;
+    /* fallback for old browsers */
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    height: 14vh;
+}
+
+.logo {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 95%;
+    display: block;
+}
+
+nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-right: 2rem;
+    text-align: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.hero {
+    height: 86vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    background: url(/res/Frame\ 3\ \(5\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hleft {
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.hright {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 3rem;
+}
+
+.hright img {
+    width: 100%;
+    display: block;
+}
+
+.hleft h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.hleft p {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.hleft {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    position: relative;
+    width: 220px;
+    height: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4rem;
+    outline: none;
+    font-weight: 500;
+    color: white;
+    border: none;
+    transition: 0.8s;
+    cursor: pointer;
+    font-size: 1rem;
+    background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+}
+
+.hleft button h1 {
+    position: absolute;
+    font-size: 1.25rem;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
