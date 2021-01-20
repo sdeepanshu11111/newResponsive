@@ -10,6 +10,11 @@ footer img {
     width: 70%;
 }
 
+footer img[src="footer/mail.png"] {
+    width: 30%;
+    margin-right: 10px;
+}
+
 footer h1 {
     font-size: 1.5rem;
     color: #FFFFFF;

@@ -15,6 +15,9 @@ body {
 }
 
 .nav {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 11111111;
+    width: 100%;
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-direction: row;
@@ -26,7 +29,9 @@ body {
     /* fallback for old browsers */
     background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
     /* Chrome 10-25, Safari 5.1-6 */
-    height: 14vh;
+    height: 70px;
+    position: fixed;
+    /* margin-bottom: 12vh; */
 }
 
 .logo {
@@ -41,13 +46,14 @@ body {
 }
 
 nav {
-    width: 70%;
+    width: 65%;
+    padding-left: 4rem;
 }
 
 nav ul {
     display: flex;
     list-style: none;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 nav ul li {
@@ -64,20 +70,27 @@ nav ul a {
 }
 
 .hero {
-    height: 86vh;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 4rem;
-    background: url(svg.svg);
+    background: url(file.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding-top: 280px */
+}
+
+.whyWeExist h1 {
+    width: 80%;
+    margin: auto;
 }
 
 .hleft {
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     color: rgba(0, 0, 0, 0.6);
+    animation: slideInFromLeft 1s ease-in;
 }
 
 .hright {
@@ -88,6 +101,7 @@ nav ul a {
     justify-content: flex-end;
     align-items: flex-start;
     padding-right: 3rem;
+    animation: slideInFromRight 1s ease-in;
 }
 
 .hright img {
