@@ -235,4 +235,10 @@
         align-items: center;
         justify-content: space-around;
     }
+    .cardsFirstRow {
+        flex-direction: column;
+    }
+    .cardsSecondRow {
+        flex-direction: column;
+    }
 }
