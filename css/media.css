@@ -6,7 +6,26 @@
         top: 0;
     }
     nav {
-        display: none;
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 81px;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 0.7s;
+        background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70%;
+    }
+    nav ul li {
+        opacity: 1;
+    }
+    .nav-active {
+        transform: translateX(0);
     }
     .hero {
         flex-direction: column;
@@ -240,5 +259,15 @@
     }
     .cardsSecondRow {
         flex-direction: column;
+    }
+    .burger {
+        padding-right: 3rem;
+        cursor: pointer;
+    }
+    .burger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
     }
 }
