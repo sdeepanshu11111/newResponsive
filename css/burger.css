@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 .burger div {
     height: 5px;
     width: 25px;
     background-color: white;
     margin: 5px;
+=======
+.burger div {
+    height: 5px;
+    width: 25px;
+    background-color: white;
+    margin: 5px;
+>>>>>>> 021f3460dfe5e284f556eb8d4e646c0cddfd8165
 }
