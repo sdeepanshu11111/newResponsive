@@ -40,7 +40,7 @@ body {
     align-items: center;
 }
 
-.logo img {
+.logo a img {
     height: 95%;
     display: block;
 }
