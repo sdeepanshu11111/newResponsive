@@ -1,6 +1,7 @@
 .parentsPoint {
     background: linear-gradient(90deg, #F2709C 30.42%, #FF9472 117.42%);
     font-family: 'Montserrat', sans-serif;
+    text-transform: none;
 }
 
 .parentsPoint h1 {
