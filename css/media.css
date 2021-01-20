@@ -116,9 +116,17 @@
         width: 80%;
         margin: auto;
     }
-    .pLearn h1,
-    p {
+    .ppp {
+        text-align: center;
         width: 80%;
+        margin: auto;
+    }
+    .pLearn h1 {
+        width: 80%;
+        margin: auto;
+    }
+    .pp {
+        width: 90%;
         margin: auto;
     }
     .saydiv {
