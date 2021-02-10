@@ -1,30 +1,21 @@
+const burger = document.querySelector(".burger");
+const nav = document.querySelector("#nav");
+const navLinks = document.querySelectorAll(".li");
+const bo = document.querySelector(".b");
+const overlay = document.querySelector(".overlay");
+
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const nav = document.querySelector('#nav')
-    const navLinks = document.querySelectorAll('.li');
+  console.log(nav);
 
-    console.log(nav)
+  burger.addEventListener("click", () => {
+    overlay.classList.toggle("over");
+    nav.classList.toggle("nav-active");
+  });
 
-    burger.addEventListener('click', () => {
-        nav.classList.toggle('nav-active');
+  overlay.addEventListener("click", () => {
+    overlay.classList.remove("over");
+    nav.classList.remove("nav-active");
+  });
+};
 
-
-
-        // navLinks.forEach((link, index) => {
-        //     console.log(link, index)
-        //     if (link.style.animation) {
-        //         link.style.animation = '';
-
-        //     } else {
-        //         link.style.animation = `navLinkFade 0.5s ease forwards${index / 7 + 0.4}s`;
-        //     }
-
-        // })
-
-    })
-
-
-
-}
-
-navSlide()
+navSlide();

@@ -192,7 +192,7 @@
     display: block;
     top: 50%;
     height: 32px;
-    background-image: url(res/iconmonstr-arrow-28-240.png);
+  
     cursor: pointer;
     position: absolute;
     z-index: 99;
